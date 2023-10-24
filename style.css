@@ -20,7 +20,7 @@ body {
 }
 
 .container {
-    height: 400px;  
+    margin: 50px;
 }
 
 .quote, .modal {
@@ -97,21 +97,25 @@ body {
     font-size: 48px;
     font-weight: bolder;
     color: white;
+    margin: 10px 0;
 }
 
 #title-subtext {
+    margin: 10px 0;
     font-size: 18px;
     font-weight: lighter;
     color: #E5E7EB;
 }
 
 #sign-up-button {
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     color: white;
     background-color: #3882F6;
-    width: 120px;
+    width: 100px;
     height: 40px;
+    border-radius: 5px;
+    margin: 10px 0;
 }
 
 .header-bottom-right {
@@ -124,6 +128,57 @@ body {
     width: 450px;
     background-color: #E5E7EB;
     padding: 10px;
+}
+
+/* Cards */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.container-card-box {
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    margin: 0 350px;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.container-card {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-card-image {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    margin: 16px 0;
+    border-radius: 10%;
+}
+
+.container-card-text {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #7a7a7a;
+    text-align: center;
+
 }
 
 

@@ -24,7 +24,8 @@ body {
 }
 
 .quote, .modal {
-    height: 300px;
+    /* To be removed */
+    height: 300px; 
 }
 
 .quote {
@@ -70,7 +71,7 @@ body {
 }
 
 .header-bottom {
-    height: 500px;
+    padding: 60px;
     background-color: #1F2937;
     display: flex;
     justify-content: center;
@@ -80,10 +81,10 @@ body {
     width: 75%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .header-bottom-left, .header-bottom-right {
-    height: 320px;
     flex: 1;
 }
 
@@ -120,14 +121,15 @@ body {
 
 .header-bottom-right {
     display: flex;
-    justify-content: center;;
+    justify-content: center;
+    align-items: center;
 }
 
 #img-placeholder {
     margin: 10px;
-    width: 450px;
+    height: 200px;
+    width: 400px;
     background-color: #E5E7EB;
-    padding: 10px;
 }
 
 /* Cards */

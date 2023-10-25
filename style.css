@@ -23,11 +23,6 @@ body {
     margin: 50px;
 }
 
-.modal {
-    /* To be removed */
-    height: 300px; 
-}
-
 /* Header */
 
 .header-top {
@@ -111,7 +106,8 @@ body {
     background-color: #3882F6;
     width: 100px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 8px;
+    border: 0px solid white;
     margin: 10px 0;
 }
 
@@ -200,10 +196,68 @@ body {
 }
 
 .quote-author {
+    margin-top: 20px;
     font-size: 22px;
     font-weight: 600;
     display: flex;
     justify-content: flex-end;
 }
 
+/* Alert */
 
+.alert-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.alert-box {
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px;
+}
+
+.alert-text { 
+    display: flex; 
+    flex-direction: column;
+}
+
+#alert-text-header {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+#alert-text-sub {
+    color: #F9FAF8;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.alert-button {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    width: 120px;
+    height: 30px;
+    border-radius:8px;
+    border: 2px solid #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Footer */
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 12px;
+}

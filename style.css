@@ -23,13 +23,9 @@ body {
     margin: 50px;
 }
 
-.quote, .modal {
+.modal {
     /* To be removed */
     height: 300px; 
-}
-
-.quote {
-    background-color: #E5E7EB;
 }
 
 /* Header */
@@ -183,5 +179,31 @@ body {
 
 }
 
+/* Quote */
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+}
+
+.quote-box {
+    width: 55%;
+}
+
+.quote-text {
+    font-size: 32px;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 22px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-end;
+}
 
 
